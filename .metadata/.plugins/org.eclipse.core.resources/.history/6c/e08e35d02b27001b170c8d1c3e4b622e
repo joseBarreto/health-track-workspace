@@ -1,0 +1,11 @@
+package br.com.fiap.healthtrack.factory;
+
+import br.com.fiap.healthtrack.dao.ProdutoDAO;
+import br.com.fiap.healthtrack.dao.impl.OracleProdutoDAO;
+
+public class DAOFactory {
+	public static ProdutoDAO getProdutoDAO() {
+		return new OracleProdutoDAO();
+	}
+
+}

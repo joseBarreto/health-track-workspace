@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="javax.xml.bind.DataBindingException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.impl.OracleProdutoDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.ProdutoDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Produto"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.exception.DBException"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.util.CriptografiaUtils"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.singleton.ConnectionManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.impl.OracleUsuarioDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.factory.DAOFactory"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.UsuarioDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Usuario"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

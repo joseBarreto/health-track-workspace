@@ -1,0 +1,72 @@
+package br.com.fiap.healthtrack.dao.impl;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import br.com.fiap.healthtrack.bean.Produto;
+import br.com.fiap.healthtrack.dao.ProdutoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+import br.com.fiap.healthtrack.singleton.ConnectionManager;
+
+public class OracleProdutoDAO implements ProdutoDAO {
+
+	private Connection conexao;
+	
+	@Override
+public void cadastrar(Produto produto) throws DBException {
+	PreparedStatement stmt = null;
+
+	try {
+		conexao = ConnectionManager.getInstance().getConnection();
+		String sql = "INSERT INTO TB_PRODUTO (CD_PRODUTO, NM_PRODUTO, QT_PRODUTO, VL_PRODUTO, DT_FABRICACAO) VALUES (SQ_TB_PRODUTO.NEXTVAL, ?, ?, ?, ?)";
+		stmt = conexao.prepareStatement(sql);
+		stmt.setString(1, produto.getNome());
+		stmt.setInt(2, produto.getQuantidade());
+		stmt.setDouble(3, produto.getValor());
+		java.sql.Date data = new java.sql.Date(produto.getDataFabricacao().getTimeInMillis());
+		stmt.setDate(4, data);
+
+		stmt.executeUpdate();
+	} catch (SQLException e) {
+		e.printStackTrace();
+		throw new DBException("Erro ao cadastradar.");
+	} finally {
+		try {
+			stmt.close();
+			conexao.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
+	@Override
+	public void atualizar(Produto produto) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remover(int codigo) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Produto buscar(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Produto> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

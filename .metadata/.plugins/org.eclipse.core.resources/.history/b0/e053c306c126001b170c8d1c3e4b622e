@@ -1,0 +1,61 @@
+<div class="header">
+	<div class="brand-logo">
+		<a href="index.html"> <img src="src/images/deskapp-logo.svg"
+			alt="" class="light-logo">
+		</a>
+	</div>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		   
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			   
+			<ul class="navbar-nav">
+				     
+				<li class="nav-item">        <a class="nav-link"
+					href="cadastro-produto.jsp">Cadastro</a>      
+				</li>      
+				<li class="nav-item">        <a class="nav-link" href="produto">Produtos</a>
+					     
+				</li>    
+			</ul>
+			   
+			<form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="text"
+					placeholder="Search" aria-label="Search">      
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				   
+			</form>
+			 
+		</div>
+
+	</nav>
+
+
+
+
+
+	<div class="header-right">
+		<div class="user-info-dropdown">
+			<div class="dropdown">
+				<a class="dropdown-toggle" href="#" role="button"
+					data-toggle="dropdown"> <span class="user-icon"> <img
+						src="src/images/photo1.jpg" alt="">
+				</span> <span class="user-name"> <%=session.getAttribute("attrUsuario")%>
+				</span>
+				</a>
+				<div
+					class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+					<a class="dropdown-item" href="#"><i class="dw dw-user1"></i>
+						Perfil</a> <a class="dropdown-item" href="#"><i
+						class="dw dw-settings2"></i> Configurações</a> <a
+						class="dropdown-item" href="#"><i class="dw dw-help"></i>
+						Ajuda</a> <a class="dropdown-item" href="login.jsp"><i
+						class="dw dw-logout"></i> Sair</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

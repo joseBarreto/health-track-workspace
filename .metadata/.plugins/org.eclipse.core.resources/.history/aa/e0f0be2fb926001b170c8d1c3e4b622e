@@ -1,0 +1,5 @@
+package br.com.fiap.healthtrack.factory;
+
+public class DAOFactory {
+
+}

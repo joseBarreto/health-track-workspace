@@ -1,0 +1,21 @@
+package br.com.fiap.healthtrack.singleton;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectionManager {
+	private static ConnectionManager connectionManager;
+	
+	private ConnectionManager() {
+		
+	}
+	
+	public static ConnectionManager getIntance() {
+		if(connectionManager == null) {
+			connectionManager = new ConnectionManager();
+		}
+		
+		return connectionManager;
+	}
+
+}

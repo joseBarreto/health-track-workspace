@@ -1,0 +1,66 @@
+package br.com.fiap.healthtrack.controller;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.healthtrack.bean.Produto;
+import br.com.fiap.healthtrack.dao.ProdutoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+import br.com.fiap.healthtrack.factory.DAOFactory;
+
+
+@WebServlet("/produto")
+public class ProdutoServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	   
+	private ProdutoDAO dao;
+       
+    public ProdutoServlet() {
+        super();       
+    }
+
+    @Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+		dao =  DAOFactory.getProdutoDAO();
+	}  
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try{
+			String nome = request.getParameter("nome");
+			int quantidade = Integer.parseInt(request.getParameter("quantidade"));
+			double preco = Double.parseDouble(request.getParameter("valor"));
+			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+			Calendar fabricacao = Calendar.getInstance();
+			fabricacao.setTime(format.parse(request.getParameter("fabricacao")));
+			
+			Produto produto = new Produto(0, nome, preco, fabricacao, quantidade); 
+			dao.cadastrar(produto);
+			
+			request.setAttribute("msg", "Produto cadastrado!");
+		}catch(DBException db) {
+			db.printStackTrace();
+			request.setAttribute("erro", "Erro ao cadastrar");
+		}catch(Exception e){
+			e.printStackTrace();
+			request.setAttribute("erro","Por favor, valide os dados");
+		}
+		request.getRequestDispatcher("cadastro-produto.jsp").forward(request, response);
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		List<Produto> lista = dao.listar();
+		request.setAttribute("produtos", lista);
+		request.getRequestDispatcher("lista-produto.jsp").forward(request, response);
+	}
+	
+}

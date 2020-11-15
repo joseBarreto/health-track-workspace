@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Basic Page Info -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Health Track - Cadastro</title>
+<%@ include file="header.jsp"%>
+<link rel="stylesheet" type="text/css"
+	href="src/plugins/jquery-steps/jquery.steps.css">
+
+</head>
+
+<body class="login-page">
+	<div class="login-header box-shadow">
+		<div
+			class="container-fluid d-flex justify-content-between align-items-center">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="login.jsp"><img
+					src="src/images/deskapp-logo.svg" alt="" class="light-logo"></a>
+			</div>
+			<div class="login-menu">
+				<ul>
+					<li><a href="login.jsp">Entrar</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- success Popup html Start -->
+	<button type="button" id="success-modal-btn" hidden data-toggle="modal"
+		data-target="#success-modal" data-backdrop="static">Launch
+		modal</button>
+	<div class="modal fade" id="success-modal" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered max-width-400"
+			role="document">
+			<div class="modal-content">
+				<div class="modal-body text-center font-18">
+					<h3 class="mb-20">Cadastro efetuado com sucesso!</h3>
+					<div class="mb-30 text-center">
+						<img src="src/images/success.png">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center">
+					<a href="login.jsp" class="btn btn-primary">Pronto!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- success Popup html End -->
+
+	<!-- js -->
+	<%@ include file="footer.jsp"%>
+	<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
+	<script src="src/scripts/steps-setting.js"></script>
+
+</body>
+
+</html>

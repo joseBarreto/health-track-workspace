@@ -1,0 +1,111 @@
+
+nov 14, 2020 19:08:18.11 NEW SESSION
+nov 14, 2020 19:08:18.11 [18552:11932:1114/180818.107:ERROR:device_event_log_impl.cc(208)] [18:08:18.107] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 19:08:18.24 [18552:11932:1114/180818.241:ERROR:device_event_log_impl.cc(208)] [18:08:18.242] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 19:08:18.24 [18552:11932:1114/180818.243:ERROR:device_event_log_impl.cc(208)] [18:08:18.243] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 19:18:12.04 [1114/181812.038:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 14, 2020 19:20:01.65 [23960:11880:1114/182001.659:ERROR:device_event_log_impl.cc(208)] [18:20:01.659] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 19:20:01.68 [23960:11880:1114/182001.685:ERROR:device_event_log_impl.cc(208)] [18:20:01.685] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 19:20:01.68 [23960:11880:1114/182001.686:ERROR:device_event_log_impl.cc(208)] [18:20:01.686] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 19:29:52.23 [1114/182952.234:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 14, 2020 19:42:06.87 [23960:11880:1114/184206.875:ERROR:event_router.cc(713)] Event dispatched while shutting down extensions browser client.
+nov 14, 2020 19:43:05.61 [16864:17536:1114/184305.612:ERROR:device_event_log_impl.cc(208)] [18:43:05.612] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 19:43:05.64 [16864:17536:1114/184305.644:ERROR:device_event_log_impl.cc(208)] [18:43:05.644] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 19:43:05.64 [16864:17536:1114/184305.645:ERROR:device_event_log_impl.cc(208)] [18:43:05.645] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 19:52:58.79 [1114/185258.789:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 14, 2020 20:09:32.92 [11472:8780:1114/190932.923:ERROR:device_event_log_impl.cc(208)] [19:09:32.923] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 20:09:32.97 [11472:8780:1114/190932.973:ERROR:device_event_log_impl.cc(208)] [19:09:32.973] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 20:09:32.97 [11472:8780:1114/190932.974:ERROR:device_event_log_impl.cc(208)] [19:09:32.974] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 20:14:07.75 [7264:24760:1114/191407.751:ERROR:device_event_log_impl.cc(208)] [19:14:07.751] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 20:14:07.78 [7264:24760:1114/191407.788:ERROR:device_event_log_impl.cc(208)] [19:14:07.788] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 20:14:07.78 [7264:24760:1114/191407.789:ERROR:device_event_log_impl.cc(208)] [19:14:07.788] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 20:23:56.25 [1114/192356.252:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 14, 2020 21:22:44.61 [9808:24316:1114/202244.617:ERROR:device_event_log_impl.cc(208)] [20:22:44.617] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 14, 2020 21:22:44.64 [9808:24316:1114/202244.645:ERROR:device_event_log_impl.cc(208)] [20:22:44.645] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 14, 2020 21:22:44.64 [9808:24316:1114/202244.646:ERROR:device_event_log_impl.cc(208)] [20:22:44.647] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 14, 2020 21:32:38.12 [1114/203238.127:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 07:08:58.94 [13056:9628:1115/060858.944:ERROR:device_event_log_impl.cc(208)] [06:08:58.944] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 07:08:59.02 [13056:9628:1115/060859.024:ERROR:device_event_log_impl.cc(208)] [06:08:59.025] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 07:08:59.02 [13056:9628:1115/060859.025:ERROR:device_event_log_impl.cc(208)] [06:08:59.026] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 07:18:50.65 [1115/061850.652:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 08:59:30.23 [21816:16812:1115/075930.234:ERROR:device_event_log_impl.cc(208)] [07:59:30.234] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 08:59:30.30 [21816:16812:1115/075930.302:ERROR:device_event_log_impl.cc(208)] [07:59:30.303] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 08:59:30.30 [21816:16812:1115/075930.303:ERROR:device_event_log_impl.cc(208)] [07:59:30.303] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 09:04:45.72 [6944:22784:1115/080445.720:ERROR:device_event_log_impl.cc(208)] [08:04:45.720] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 09:04:45.77 [6944:22784:1115/080445.770:ERROR:device_event_log_impl.cc(208)] [08:04:45.770] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 09:04:45.77 [6944:22784:1115/080445.770:ERROR:device_event_log_impl.cc(208)] [08:04:45.770] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+
+nov 15, 2020 09:08:37.57 NEW SESSION
+nov 15, 2020 09:08:37.57 [23924:7844:1115/080837.571:ERROR:device_event_log_impl.cc(208)] [08:08:37.571] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 09:08:37.60 [23924:7844:1115/080837.604:ERROR:device_event_log_impl.cc(208)] [08:08:37.604] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 09:08:37.60 [23924:7844:1115/080837.605:ERROR:device_event_log_impl.cc(208)] [08:08:37.605] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 09:12:06.31 [16360:21196:1115/081206.315:ERROR:device_event_log_impl.cc(208)] [08:12:06.316] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 09:12:06.35 [16360:21196:1115/081206.349:ERROR:device_event_log_impl.cc(208)] [08:12:06.349] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 09:12:06.35 [16360:21196:1115/081206.350:ERROR:device_event_log_impl.cc(208)] [08:12:06.350] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 09:22:00.44 [1115/082200.441:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 09:42:19.33 [11280:7828:1115/084219.331:ERROR:device_event_log_impl.cc(208)] [08:42:19.331] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 09:42:19.38 [11280:7828:1115/084219.384:ERROR:device_event_log_impl.cc(208)] [08:42:19.384] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 09:42:19.38 [11280:7828:1115/084219.385:ERROR:device_event_log_impl.cc(208)] [08:42:19.385] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 09:52:11.67 [1115/085211.674:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 10:25:00.56 [20472:17088:1115/092500.566:ERROR:device_event_log_impl.cc(208)] [09:25:00.566] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 10:25:01.19 [20472:17088:1115/092501.196:ERROR:device_event_log_impl.cc(208)] [09:25:01.196] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 10:25:01.20 [20472:17088:1115/092501.199:ERROR:device_event_log_impl.cc(208)] [09:25:01.199] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 10:31:18.30 [12096:15944:1115/093118.308:ERROR:device_event_log_impl.cc(208)] [09:31:18.308] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 10:31:18.35 [12096:15944:1115/093118.353:ERROR:device_event_log_impl.cc(208)] [09:31:18.352] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 10:31:18.35 [12096:15944:1115/093118.354:ERROR:device_event_log_impl.cc(208)] [09:31:18.353] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 10:41:14.43 [1115/094114.433:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 10:44:32.44 [21328:13712:1115/094432.442:ERROR:device_event_log_impl.cc(208)] [09:44:32.441] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 10:44:32.48 [21328:13712:1115/094432.480:ERROR:device_event_log_impl.cc(208)] [09:44:32.479] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 10:44:32.48 [21328:13712:1115/094432.480:ERROR:device_event_log_impl.cc(208)] [09:44:32.480] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 10:52:02.12 [15564:616:1115/095202.122:ERROR:device_event_log_impl.cc(208)] [09:52:02.123] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 10:52:02.42 [15564:616:1115/095202.152:ERROR:device_event_log_impl.cc(208)] [09:52:02.153] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 10:52:02.42 [15564:616:1115/095202.153:ERROR:device_event_log_impl.cc(208)] [09:52:02.154] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 10:58:57.32 [22100:10684:1115/095857.328:ERROR:device_event_log_impl.cc(208)] [09:58:57.328] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 10:58:57.35 [22100:10684:1115/095857.357:ERROR:device_event_log_impl.cc(208)] [09:58:57.357] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 10:58:57.35 [22100:10684:1115/095857.358:ERROR:device_event_log_impl.cc(208)] [09:58:57.358] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 12:40:04.99 [24324:22240:1115/114004.989:ERROR:device_event_log_impl.cc(208)] [11:40:04.988] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 12:40:05.06 [24324:22240:1115/114005.062:ERROR:device_event_log_impl.cc(208)] [11:40:05.061] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 12:40:05.06 [24324:22240:1115/114005.063:ERROR:device_event_log_impl.cc(208)] [11:40:05.062] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 12:40:34.71 [25300:9528:1115/114034.711:ERROR:device_event_log_impl.cc(208)] [11:40:34.711] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 12:40:34.74 [25300:9528:1115/114034.741:ERROR:device_event_log_impl.cc(208)] [11:40:34.741] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 12:40:34.74 [25300:9528:1115/114034.741:ERROR:device_event_log_impl.cc(208)] [11:40:34.741] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 12:50:32.60 [1115/115032.603:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 13:03:33.51 [9600:13720:1115/120333.512:ERROR:device_event_log_impl.cc(208)] [12:03:33.511] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:03:33.60 [9600:13720:1115/120333.602:ERROR:device_event_log_impl.cc(208)] [12:03:33.601] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:03:33.60 [9600:13720:1115/120333.603:ERROR:device_event_log_impl.cc(208)] [12:03:33.602] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:13:23.64 [17088:10224:1115/121323.645:ERROR:device_event_log_impl.cc(208)] [12:13:23.645] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:13:23.73 [17088:10224:1115/121323.738:ERROR:device_event_log_impl.cc(208)] [12:13:23.738] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:13:23.73 [17088:10224:1115/121323.738:ERROR:device_event_log_impl.cc(208)] [12:13:23.738] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:23:10.54 [1115/122310.542:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 15, 2020 13:28:02.38 [10672:6300:1115/122802.380:ERROR:device_event_log_impl.cc(208)] [12:28:02.380] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:28:02.41 [10672:6300:1115/122802.415:ERROR:device_event_log_impl.cc(208)] [12:28:02.415] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:28:02.41 [10672:6300:1115/122802.416:ERROR:device_event_log_impl.cc(208)] [12:28:02.416] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:28:23.96 [13124:22100:1115/122823.959:ERROR:device_event_log_impl.cc(208)] [12:28:23.958] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:28:23.98 [13124:22100:1115/122823.987:ERROR:device_event_log_impl.cc(208)] [12:28:23.986] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:28:23.98 [13124:22100:1115/122823.987:ERROR:device_event_log_impl.cc(208)] [12:28:23.987] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:31:00.43 [3340:22412:1115/123100.437:ERROR:device_event_log_impl.cc(208)] [12:31:00.437] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:31:00.51 [3340:22412:1115/123100.512:ERROR:device_event_log_impl.cc(208)] [12:31:00.512] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:31:00.51 [3340:22412:1115/123100.513:ERROR:device_event_log_impl.cc(208)] [12:31:00.513] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:33:52.98 [10492:18700:1115/123352.983:ERROR:device_event_log_impl.cc(208)] [12:33:52.983] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:33:53.01 [10492:18700:1115/123353.017:ERROR:device_event_log_impl.cc(208)] [12:33:53.017] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:33:53.01 [10492:18700:1115/123353.017:ERROR:device_event_log_impl.cc(208)] [12:33:53.018] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:34:05.29 [10492:14940:1115/123405.293:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+nov 15, 2020 13:35:01.00 [24340:9292:1115/123501.003:ERROR:device_event_log_impl.cc(208)] [12:35:01.003] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:35:01.03 [24340:9292:1115/123501.034:ERROR:device_event_log_impl.cc(208)] [12:35:01.034] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:35:01.03 [24340:9292:1115/123501.034:ERROR:device_event_log_impl.cc(208)] [12:35:01.034] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:35:37.56 [21584:23808:1115/123537.563:ERROR:device_event_log_impl.cc(208)] [12:35:37.563] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:35:37.59 [21584:23808:1115/123537.591:ERROR:device_event_log_impl.cc(208)] [12:35:37.591] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:35:37.59 [21584:23808:1115/123537.594:ERROR:device_event_log_impl.cc(208)] [12:35:37.594] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:38:34.55 [12488:2024:1115/123834.554:ERROR:device_event_log_impl.cc(208)] [12:38:34.554] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:38:34.58 [12488:2024:1115/123834.581:ERROR:device_event_log_impl.cc(208)] [12:38:34.581] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:38:34.58 [12488:2024:1115/123834.582:ERROR:device_event_log_impl.cc(208)] [12:38:34.582] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:38:39.19 [12488:12444:1115/123839.198:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+nov 15, 2020 13:39:12.01 [18912:15984:1115/123912.019:ERROR:device_event_log_impl.cc(208)] [12:39:12.018] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:39:12.05 [18912:15984:1115/123912.056:ERROR:device_event_log_impl.cc(208)] [12:39:12.056] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:39:12.05 [18912:15984:1115/123912.057:ERROR:device_event_log_impl.cc(208)] [12:39:12.057] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:40:52.92 [21496:11328:1115/124052.923:ERROR:device_event_log_impl.cc(208)] [12:40:52.923] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:40:52.95 [21496:11328:1115/124052.958:ERROR:device_event_log_impl.cc(208)] [12:40:52.958] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:40:52.96 [21496:11328:1115/124052.959:ERROR:device_event_log_impl.cc(208)] [12:40:52.959] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 15, 2020 13:42:35.52 [17504:21780:1115/124235.528:ERROR:device_event_log_impl.cc(208)] [12:42:35.528] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 15, 2020 13:42:35.55 [17504:21780:1115/124235.557:ERROR:device_event_log_impl.cc(208)] [12:42:35.557] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 15, 2020 13:42:35.55 [17504:21780:1115/124235.558:ERROR:device_event_log_impl.cc(208)] [12:42:35.558] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1

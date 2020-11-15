@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="55" viewBox="0 0 255 55">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        fill: #1b00ff;
+        font-family: Roboto;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="HEALTH_TRACK" data-name="HEALTH TRACK" class="cls-1" x="21.6" y="36.4">HEALTH TRACK</text>
+</svg>

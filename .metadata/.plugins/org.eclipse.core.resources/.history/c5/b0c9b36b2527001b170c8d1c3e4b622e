@@ -1,0 +1,19 @@
+package br.com.fiap.healthtrack.bean;
+
+import java.io.Serializable;
+import java.util.Calendar;
+
+public class Usuario implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	private int id_usuario;
+	private String nm_nome;
+	private char sexo;
+	private Calendar dt_nascimento;
+	private Calendar dt_cadastro;
+	private Calendar dt_ultimo_acesso;
+	private String email;
+	private String senha;
+	
+	
+}

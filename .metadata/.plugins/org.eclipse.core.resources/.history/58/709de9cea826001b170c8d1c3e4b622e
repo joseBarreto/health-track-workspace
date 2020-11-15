@@ -1,0 +1,16 @@
+package br.com.fiap.healthtrack.dao;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import br.com.fiap.healthtrack.bean.*;
+
+public interface ProdutoDAO {
+
+	void cadastrar(Produto produto) throws DBException;
+	void atualizar(Produto produto) throws DBException;
+	void remover(int codigo) throws DBException;
+	Produto buscar(int id);
+	List<Produto> listar();
+}

@@ -1,0 +1,21 @@
+package br.com.fiap.HealthTrack.bean;
+
+import java.io.Serializable;
+import java.util.Calendar;
+
+public class Produto implements Serializable{
+   private static final long serialVersionUID = 1L;
+
+
+   	private int codigo;
+   	private String nome;    
+   	private double valor;
+   	private Calendar dataFabricacao;
+    private int quantidade;    
+    
+    public Produto() {
+      super();
+    }   
+   
+   
+}
