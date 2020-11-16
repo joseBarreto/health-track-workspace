@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastrar Batimentos cardiacos</title>
+<%@ include file="header.jsp"%>
+</head>
+<body>
+	<%@ include file="menu.jsp"%>
+	<div class="main-container">
+		<div class="pd-ltr-20 xs-pd-20-10">
+			<div class="min-height-200px">
+				<div class="pd-20 card-box mb-30">
+					<form action="heartBeats" method="post">
+
+						<c:if test="${batimento.id_hist_batimento_cardiaco == null }">
+							<input type="hidden" value="cadastrar" name="acao">
+						</c:if>
+						<c:if test="${batimento.id_hist_batimento_cardiaco > 0 }">
+							<input type="hidden" value=editar name="acao">
+						</c:if>
+
+						<input type="hidden" name="codigo"
+							value="${batimento.id_hist_batimento_cardiaco }">
+						<div class="form-group row">
+							<label class="col-sm-12 col-md-2 col-form-label">Valor</label>
+							<div class="col-sm-12 col-md-10">
+								<input class="form-control" value="${batimento.valor}" type="number"
+									name="valor">
+							</div>
+						</div>
+
+						<div class="form-group row">
+							<label class="col-sm-12 col-md-2 col-form-label">Batimento
+								irregular?</label>
+							<div class="col-sm-12 col-md-10">
+								<div class="custom-control custom-checkbox mb-5">
+									<input type="checkbox" class="custom-control-input"
+										name="irregular" id="customCheck1"> <label
+										class="custom-control-label" for="customCheck1">Sim</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Observação</label>
+							<textarea class="form-control" name="observacao" maxlength="500">${observacao }</textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<%@ include file="footer.jsp"%>
+</body>
+</html>

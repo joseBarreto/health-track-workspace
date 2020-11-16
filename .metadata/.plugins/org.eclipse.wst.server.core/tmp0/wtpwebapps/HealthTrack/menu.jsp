@@ -8,9 +8,12 @@
 		</div>
 		<!-- Links -->
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link"
-				href="cadastro-produto.jsp">Cadastro</a></li>
-			<li class="nav-item"><a class="nav-link" href="produto?acao=listar">Produtos</a></li>
+			<!--<li class="nav-item">
+			<a class="nav-link"	href="cadastro-produto.jsp">Cadastro</a>
+			</li>
+			 <li class="nav-item"><a class="nav-link" href="produto?acao=listar">Produtos</a></li> -->
+			<li class="nav-item"><a class="nav-link" href="heartBeats">Batimentos cardiacos</a></li>
+			<li class="nav-item"><a class="nav-link" href="produto?acao=listar">Controle de peso</a></li>
 		</ul>
 	</nav>
 	<div class="header-right">

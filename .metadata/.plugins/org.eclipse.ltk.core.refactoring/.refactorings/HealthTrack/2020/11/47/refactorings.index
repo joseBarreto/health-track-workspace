@@ -2,3 +2,7 @@
 1605437196287	Extract method 'cadastrarUsuario'
 1605452749243	Delete element
 1605452769459	Delete element
+1605484600104	Encapsulate field 'irregular'
+1605489611242	Extract method 'listar'
+1605496752747	Delete element
+1605496758996	Delete element

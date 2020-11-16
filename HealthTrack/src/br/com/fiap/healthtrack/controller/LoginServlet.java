@@ -60,24 +60,28 @@ public class LoginServlet extends HttpServlet {
 	private void cadastrarUsuario(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {
+			String nome = request.getParameter("nome");
+			String sobrenome = request.getParameter("sobrenome");
+			String sexo = request.getParameter("gender");
+			String email = request.getParameter("email");
 			String senha = request.getParameter("senha");
 			String senhaConfirma = request.getParameter("senhaConfirma");
 
-			if (senha != senhaConfirma) {
+			if (!senha.equals(senhaConfirma)) {
 				request.setAttribute("erro", "As senhas não conferem");
 				request.getRequestDispatcher("register.jsp").forward(request, response);
+				return;
+			}else if(usuarioDAO.jaCadastrado(email)) {
+				request.setAttribute("erro", "E-mail já cadastrado!");
+				request.getRequestDispatcher("register.jsp").forward(request, response);
+				return;
 			}
-
-			String nome = request.getParameter("nome");
-			String sobrenome = request.getParameter("sobrenome");
-			String sexo = request.getParameter("sexo");
-			String email = request.getParameter("email");
 
 			Calendar c_dt_nascimento = Calendar.getInstance();
 			Calendar c_dt_cadastro = Calendar.getInstance();
 			Calendar c_dt_ultimo_acesso = Calendar.getInstance();
 
-			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+			SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd");
 			c_dt_nascimento.setTime(format.parse(request.getParameter("dt_nascimento")));
 
 			Usuario usuario = new Usuario(0, nome, sobrenome, sexo.charAt(0), c_dt_cadastro, c_dt_nascimento, email,
@@ -87,7 +91,7 @@ public class LoginServlet extends HttpServlet {
 
 			request.setAttribute("msg", "Usuario registrado com sucesso!");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
-			
+
 		} catch (DBException db) {
 			db.printStackTrace();
 			request.setAttribute("erro", "Erro ao registrar o usuario");

@@ -1,0 +1,174 @@
+package br.com.fiap.healthtrack.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
+import br.com.fiap.healthtrack.bean.Produto;
+import br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+import br.com.fiap.healthtrack.singleton.ConnectionManager;
+
+public class OracleHistoricoBatimentoCardiacoDAO implements HistoricoBatimentoCardiacoDAO {
+
+	private Connection conexao;
+
+	@Override
+	public void cadastrar(HistoricoBatimentoCardiaco batimentoCardiaco) throws DBException {
+		PreparedStatement stmt = null;
+
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			String sql = "INSERT INTO t_htr_hist_batimento_cardiaco (ID_HIST_BATIMENTO_CARDIACO, ID_USUARIO, IRREGULAR, VALOR, OB_OBSERVACAO) VALUES (SQ_T_HTR_HIST_BATIMENTO_CARDIACO.NEXTVAL, ?, ?, ?, ?)";
+			stmt = conexao.prepareStatement(sql);
+			stmt.setInt(1, batimentoCardiaco.getId_usuario());
+			stmt.setBoolean(2, batimentoCardiaco.getIrregular());
+			stmt.setInt(3, batimentoCardiaco.getValor());
+			stmt.setString(4, batimentoCardiaco.getOb_observacao());
+
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new DBException("Erro ao atualizar.");
+		} finally {
+			try {
+				stmt.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	@Override
+	public void atualizar(HistoricoBatimentoCardiaco batimentoCardiaco) throws DBException {
+		PreparedStatement stmt = null;
+
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			String sql = "UPDATE  t_htr_hist_batimento_cardiaco SET  IRREGULAR = ?, VALOR = ?, OB_OBSERVACAO = ? WHERE  ID_HIST_BATIMENTO_CARDIACO = ? )";
+			stmt = conexao.prepareStatement(sql);
+
+			stmt.setBoolean(1, batimentoCardiaco.getIrregular());
+			stmt.setInt(2, batimentoCardiaco.getValor());
+			stmt.setString(3, batimentoCardiaco.getOb_observacao());
+			stmt.setInt(4, batimentoCardiaco.getId_hist_batimento_cardiaco());
+
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new DBException("Erro ao atualizar.");
+		} finally {
+			try {
+				stmt.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	@Override
+	public void remover(int codigo) throws DBException {
+		PreparedStatement stmt = null;
+
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			String sql = "DELETE FROM t_htr_hist_batimento_cardiaco WHERE ID_HIST_BATIMENTO_CARDIACO = ?";
+			stmt = conexao.prepareStatement(sql);
+			stmt.setInt(1, codigo);
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new DBException("Erro ao remover.");
+		} finally {
+			try {
+				stmt.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public HistoricoBatimentoCardiaco buscar(int id) {
+		HistoricoBatimentoCardiaco produto;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			stmt = conexao.prepareStatement(
+					"SELECT * FROM t_htr_hist_batimento_cardiaco where ID_HIST_BATIMENTO_CARDIACO = ? ");
+			stmt.setInt(1, id);
+			rs = stmt.executeQuery();
+
+			// Percorre todos os registros encontrados
+			while (rs.next()) {
+				int codigo = rs.getInt("ID_HIST_BATIMENTO_CARDIACO");
+				int codigoUsuario = rs.getInt("ID_USUARIO");
+				boolean irregular = rs.getBoolean("IRREGULAR");
+				int valor = rs.getInt("VALOR");
+				String observacao = rs.getString("OB_OBSERVACAO");
+
+				produto = new HistoricoBatimentoCardiaco(codigo, codigoUsuario, irregular, valor, observacao);
+
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				stmt.close();
+				rs.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return lista;
+	}
+
+	public List<HistoricoBatimentoCardiaco> listar(int idUsuario) {
+		List<HistoricoBatimentoCardiaco> lista = new ArrayList<HistoricoBatimentoCardiaco>();
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			stmt = conexao.prepareStatement("SELECT * FROM t_htr_hist_batimento_cardiaco where ID_USUARIO = ? ");
+			stmt.setInt(1, idUsuario);
+			rs = stmt.executeQuery();
+
+			// Percorre todos os registros encontrados
+			while (rs.next()) {
+				int codigo = rs.getInt("ID_HIST_BATIMENTO_CARDIACO");
+				int codigoUsuario = rs.getInt("ID_USUARIO");
+				boolean irregular = rs.getBoolean("IRREGULAR");
+				int valor = rs.getInt("VALOR");
+				String observacao = rs.getString("OB_OBSERVACAO");
+
+				HistoricoBatimentoCardiaco produto = new HistoricoBatimentoCardiaco(codigo, codigoUsuario, irregular,
+						valor, observacao);
+				lista.add(produto);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				stmt.close();
+				rs.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return lista;
+	}
+
+}

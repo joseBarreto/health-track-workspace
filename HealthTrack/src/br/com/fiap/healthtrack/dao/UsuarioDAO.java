@@ -11,4 +11,5 @@ public interface UsuarioDAO {
 
 	Usuario buscar(String email, String senha);
 	
+	boolean jaCadastrado(String email);
 }

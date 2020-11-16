@@ -1,0 +1,10 @@
+package br.com.fiap.healthtrack.bean;
+
+import java.io.Serializable;
+
+public class HistoricoBatimentoCardiaco implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private int id_hist_batimento_cardiaco;
+	
+}

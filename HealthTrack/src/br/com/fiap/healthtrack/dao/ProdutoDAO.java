@@ -2,7 +2,7 @@ package br.com.fiap.healthtrack.dao;
 
 import java.util.List;
 
-import br.com.fiap.healthtrack.bean.*;
+import br.com.fiap.healthtrack.bean.Produto;
 import br.com.fiap.healthtrack.exception.DBException;
 
 public interface ProdutoDAO {

@@ -9,10 +9,8 @@
 </head>
 
 <body>
-
-
+	
 	<%@ include file="menu.jsp"%>
-
 
 	<div class="pre-loader">
 		<div class="pre-loader-box">

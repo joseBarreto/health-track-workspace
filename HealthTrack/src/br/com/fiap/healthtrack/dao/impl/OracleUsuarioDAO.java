@@ -141,4 +141,35 @@ public class OracleUsuarioDAO implements UsuarioDAO {
 		return usuario;
 	}
 
+	
+	@Override
+	public boolean jaCadastrado(String email) {
+		
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			stmt = conexao.prepareStatement("SELECT * FROM T_HTR_USUARIO WHERE EMAIL = ?");
+			stmt.setString(1, email);
+			
+			rs = stmt.executeQuery();
+
+			if (rs.next()) {
+				return true;
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				stmt.close();
+				rs.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+		return false;
+	}
 }

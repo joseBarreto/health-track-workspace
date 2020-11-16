@@ -1,0 +1,146 @@
+package br.com.fiap.healthtrack.controller;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
+import br.com.fiap.healthtrack.bean.Produto;
+import br.com.fiap.healthtrack.bean.Usuario;
+import br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+import br.com.fiap.healthtrack.factory.DAOFactory;
+
+@WebServlet("/heartBeats")
+public class HeartBeatsServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private HistoricoBatimentoCardiacoDAO dao;
+
+	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+		dao = DAOFactory.getHistoricoBatimentoCardiacoDAO();
+	}
+
+	public HeartBeatsServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String acao = request.getParameter("acao");
+		if(acao == null)
+		{
+			acao = "";
+		}
+		switch (acao) {
+		case "abrir-form-edicao":
+			int id = Integer.parseInt(request.getParameter("codigo"));
+			HistoricoBatimentoCardiaco batimento = dao.buscar(id);
+			request.setAttribute("batimento", batimento);
+			request.getRequestDispatcher("heart-beats-register.jsp").forward(request, response);
+			break;
+		
+		default:
+			listar(request, response);
+			break;
+		}		
+	}
+
+	private void listar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int idUsuario = ((Usuario) request.getSession().getAttribute("user")).getId_usuario();
+
+		List<HistoricoBatimentoCardiaco> lista = dao.listar(idUsuario);
+		request.setAttribute("batimentos", lista);
+		request.getRequestDispatcher("heart-beats.jsp").forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String acao = request.getParameter("acao");
+		switch (acao) {
+		case "cadastrar":
+			cadastrar(request, response);
+			break;
+		case "editar":
+			editar(request, response);
+			break;
+		case "excluir":
+			excluir(request, response);
+			break;
+		}
+	}
+
+	private void editar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			int codigo = Integer.parseInt(request.getParameter("codigo"));
+			boolean irregular = Boolean.getBoolean(request.getParameter("irregular"));
+			int valor = Integer.parseInt(request.getParameter("valor"));
+			String observacao = request.getParameter("observacao");
+			int idUsuario = ((Usuario) request.getSession().getAttribute("user")).getId_usuario();
+
+			HistoricoBatimentoCardiaco batimento = new HistoricoBatimentoCardiaco(codigo, idUsuario, irregular, valor,
+					observacao);
+			
+			dao.atualizar(batimento);
+
+			request.setAttribute("msg", "Produto atualizado!");
+		} catch (DBException db) {
+			db.printStackTrace();
+			request.setAttribute("erro", "Erro ao atualizar");
+		} catch (Exception e) {
+			e.printStackTrace();
+			request.setAttribute("erro", "Por favor, valide os dados");
+		}
+		listar(request, response);
+	}
+
+	private void cadastrar(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			boolean irregular = Boolean.getBoolean(request.getParameter("irregular"));
+			int valor = Integer.parseInt(request.getParameter("valor"));
+			String observacao = request.getParameter("observacao");
+			int idUsuario = ((Usuario) request.getSession().getAttribute("user")).getId_usuario();
+
+			HistoricoBatimentoCardiaco batimento = new HistoricoBatimentoCardiaco(0, idUsuario, irregular, valor,
+					observacao);
+			dao.cadastrar(batimento);
+
+			request.setAttribute("msg", "Produto cadastrado!");
+		} catch (DBException db) {
+			db.printStackTrace();
+			request.setAttribute("erro", "Erro ao cadastrar");
+		} catch (Exception e) {
+			e.printStackTrace();
+			request.setAttribute("erro", "Por favor, valide os dados");
+		}
+		listar(request, response);
+	}
+
+	private void excluir(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		int codigo = Integer.parseInt(request.getParameter("codigo"));
+		try {
+			dao.remover(codigo);
+			request.setAttribute("msg", "Historico de batimento removido!");
+		} catch (DBException e) {
+			e.printStackTrace();
+			request.setAttribute("erro", "Erro ao remover!");
+		}
+
+		listar(request, response);
+	}
+
+}

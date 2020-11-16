@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Batimentos cardiacos</title>
+<%@ include file="header.jsp"%>
+</head>
+<body>
+	<%@ include file="menu.jsp"%>
+
+	<div class="main-container">
+		<div class="pd-ltr-20 xs-pd-20-10">
+			<div class="min-height-200px">
+
+				<div class="pd-20 card-box mb-30">
+					<div class="clearfix">
+						<div class="pull-left">
+							<h4 class="text-blue h4">Default Basic Forms</h4>
+							<p class="mb-30">All bootstrap element classies</p>
+						</div>
+						<div class="pull-right">
+							<a href="#basic-form1"
+								class="btn btn-primary btn-sm scroll-click" rel="content-y"
+								data-toggle="collapse" role="button"><i class="fa fa-code"></i>
+								Source Code</a>
+						</div>
+					</div>
+					<form>
+						<div class="form-group row">
+							<label class="col-sm-12 col-md-2 col-form-label">Text</label>
+							<div class="col-sm-12 col-md-10">
+								<input class="form-control" type="text"
+									placeholder="Johnny Brown">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<%@ include file="footer.jsp"%>
+</body>
+</html>

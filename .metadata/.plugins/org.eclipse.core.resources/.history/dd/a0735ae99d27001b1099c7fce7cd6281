@@ -1,0 +1,41 @@
+package br.com.fiap.healthtrack.dao.impl;
+
+import java.util.List;
+
+import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
+import br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+
+public class OracleHistoricoBatimentoCardiacoDAO implements HistoricoBatimentoCardiacoDAO {
+
+	@Override
+	public void cadastrar(HistoricoBatimentoCardiaco batimentoCardiaco) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void atualizar(HistoricoBatimentoCardiaco batimentoCardiaco) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remover(int codigo) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public HistoricoBatimentoCardiaco buscar(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<HistoricoBatimentoCardiaco> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

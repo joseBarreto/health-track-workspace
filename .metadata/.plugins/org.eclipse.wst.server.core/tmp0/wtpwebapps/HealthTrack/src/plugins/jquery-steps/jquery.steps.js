@@ -2006,7 +2006,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Finish"
          * @for defaults
          **/
-        finish: "Finalizar",
+        finish: "Finish",
 
         /**
          * Label for the next button.
@@ -2016,7 +2016,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Next"
          * @for defaults
          **/
-        next: "Avançar",
+        next: "Next",
 
         /**
          * Label for the previous button.
@@ -2026,7 +2026,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Previous"
          * @for defaults
          **/
-        previous: "Voltar",
+        previous: "Previous",
 
         /**
          * Label for the loading animation.
@@ -2036,7 +2036,7 @@ var defaults = $.fn.steps.defaults = {
          * @default "Loading ..."
          * @for defaults
          **/
-        loading: "Carregando ..."
+        loading: "Loading ..."
     }
 };
 })(jQuery);

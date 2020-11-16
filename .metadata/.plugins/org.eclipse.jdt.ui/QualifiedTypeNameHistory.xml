@@ -17,7 +17,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="br.com.fiap.healthtrack.util.CriptografiaUtils"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.singleton.ConnectionManager"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.impl.OracleUsuarioDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.factory.DAOFactory"/>
@@ -26,4 +25,5 @@
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.UsuarioDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Usuario"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.util.CriptografiaUtils"/>
 </qualifiedTypeNameHistroy>
