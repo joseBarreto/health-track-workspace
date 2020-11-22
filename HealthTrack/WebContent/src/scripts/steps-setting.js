@@ -21,7 +21,7 @@ $(".tab-wizard2").steps({
 	titleTemplate: '<span class="step">#index#</span> <span class="info">#title#</span>',
 	labels: {
 		finish: "Enviar",
-		next: "Avançar",
+		next: "Avan&ccedil;ar",
 		previous: "Voltar",
 	},
 	onStepChanged: function(event, currentIndex, priorIndex) {

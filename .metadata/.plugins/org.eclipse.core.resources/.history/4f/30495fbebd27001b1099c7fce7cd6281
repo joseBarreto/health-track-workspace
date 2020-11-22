@@ -1,0 +1,14 @@
+package br.com.fiap.healthtrack.bean;
+
+import java.io.Serializable;
+
+public class HistoricoPeso implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	private int id_historico_peso;
+	private int id_usuario;
+	private Calendar dt_cadastro;
+	private int peso;
+	private String ob_observacao;
+
+}

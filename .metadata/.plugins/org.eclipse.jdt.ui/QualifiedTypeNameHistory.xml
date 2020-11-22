@@ -12,18 +12,22 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Produto"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.exception.DBException"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.singleton.ConnectionManager"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.impl.OracleUsuarioDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.factory.DAOFactory"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.UsuarioDAO"/>
-<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Usuario"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="br.com.fiap.healthtrack.util.CriptografiaUtils"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Produto"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.impl.OracleHistoricoBatimentoCardiacoDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.Usuario"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.fiap.healthtrack.bean.HistoricoPeso"/>
 </qualifiedTypeNameHistroy>

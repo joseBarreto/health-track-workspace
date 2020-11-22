@@ -8,10 +8,8 @@
 <!-- Basic Page Info -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Health Track - Cadastro</title>
+<link rel="stylesheet" type="text/css"	href="src/plugins/jquery-steps/jquery.steps.css">
 <%@ include file="header.jsp"%>
-<link rel="stylesheet" type="text/css"
-	href="src/plugins/jquery-steps/jquery.steps.css">
-
 </head>
 
 <body class="login-page">
@@ -35,7 +33,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 col-lg-7">
-					<img src="src/images/register-page-img.png" alt="">
+					<img src="src/images/register-page-img.svg" alt="">
 				</div>
 				<div class="col-md-6 col-lg-5">
 					<div class="register-box bg-white box-shadow border-radius-10">
@@ -52,9 +50,8 @@
 										<div class="form-group row">
 											<label class="col-sm-4 col-form-label">Email</label>
 											<div class="col-sm-8">
-												<input type="email" class="form-control" 
-													name="email" onkeyup="document.getElementById('viewEmail').innerHTML = this.value;"
-													 />
+												<input type="text" class="form-control" name="email"
+													onkeyup="document.getElementById('viewEmail').innerHTML = this.value;" />
 											</div>
 										</div>
 
@@ -81,37 +78,42 @@
 										<div class="form-group row">
 											<label class="col-sm-4 col-form-label">Nome</label>
 											<div class="col-sm-8">
-												<input type="text" class="form-control" name="nome" onchange="document.getElementById('viewNome').innerHTML = this.value;">
+												<input type="text" class="form-control" name="nome"
+													onchange="document.getElementById('viewNome').innerHTML = this.value;">
 											</div>
 										</div>
 										<div class="form-group row">
 											<label class="col-sm-4 col-form-label">Sobrenome</label>
 											<div class="col-sm-8">
-												<input type="text" class="form-control" name="sobrenome" onchange="document.getElementById('viewNome').innerHTML += ' ' + this.value;">
+												<input type="text" class="form-control" name="sobrenome"
+													onchange="document.getElementById('viewNome').innerHTML += ' ' + this.value;">
 											</div>
 										</div>
 										<div class="form-group row">
 											<label class="col-sm-4 col-form-label">Data de
 												nascimento</label>
 											<div class="col-sm-8">
-												<input type="date" class="form-control" name="dt_nascimento" onchange="document.getElementById('viewDtNascimento').innerHTML = this.value;">
+												<input type="date" class="form-control" name="dt_nascimento"
+													onchange="document.getElementById('viewDtNascimento').innerHTML = this.value;">
 											</div>
 										</div>
-										
+
 										<div class="form-group row align-items-center">
 											<label class="col-sm-4 col-form-label">Gênero</label>
 											<div class="col-sm-8">
 												<div
 													class="custom-control custom-radio custom-control-inline pb-0">
 													<input type="radio" id="male" name="gender"
-														class="custom-control-input" onchange="document.getElementById('viewGenero').innerHTML = 'Masculino';"> <label
-														class="custom-control-label" for="male">Masculino</label>
+														class="custom-control-input"
+														onchange="document.getElementById('viewGenero').innerHTML = 'Masculino';">
+													<label class="custom-control-label" for="male">Masculino</label>
 												</div>
 												<div
 													class="custom-control custom-radio custom-control-inline pb-0">
 													<input type="radio" id="female" name="gender"
-														class="custom-control-input" onchange="document.getElementById('viewGenero').innerHTML = 'Feminino';"> <label
-														class="custom-control-label" for="female">Feminino</label>
+														class="custom-control-input"
+														onchange="document.getElementById('viewGenero').innerHTML = 'Feminino';">
+													<label class="custom-control-label" for="female">Feminino</label>
 												</div>
 											</div>
 										</div>
@@ -127,13 +129,13 @@
 													<div class="col-sm-4 weight-600">Email</div>
 													<div class="col-sm-8" id="viewEmail"></div>
 												</div>
-											</li>	
+											</li>
 											<li>
 												<div class="row">
 													<div class="col-sm-4 weight-600">Data de nascimento</div>
 													<div class="col-sm-8" id="viewDtNascimento"></div>
 												</div>
-											</li>										
+											</li>
 											<li>
 												<div class="row">
 													<div class="col-sm-4 weight-600">Nome completo</div>

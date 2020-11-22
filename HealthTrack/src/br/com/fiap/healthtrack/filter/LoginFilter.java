@@ -29,7 +29,7 @@ public class LoginFilter implements Filter {
 		HttpSession session = req.getSession();
 		String url = req.getRequestURI();		
 		
-		if (session.getAttribute("user") == null && !url.endsWith("login") && !url.contains("register")) {
+		if (session.getAttribute("user") == null && !url.contains("login") && !url.contains("register") && !url.contains("src") ) {
 			request.setAttribute("erro", "Entre com o usuário e senha!");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		}else {

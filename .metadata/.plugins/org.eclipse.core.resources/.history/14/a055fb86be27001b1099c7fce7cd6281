@@ -1,0 +1,44 @@
+package br.com.fiap.healthtrack.dao.impl;
+
+import java.sql.Connection;
+import java.util.List;
+
+import br.com.fiap.healthtrack.bean.HistoricoPeso;
+import br.com.fiap.healthtrack.dao.HistoricoPesoDAO;
+import br.com.fiap.healthtrack.exception.DBException;
+
+public class OracleHistoricoPesoDAO implements HistoricoPesoDAO {
+
+	private Connection conexao;
+	
+	@Override
+	public void cadastrar(HistoricoPeso peso) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void atualizar(HistoricoPeso peso) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remover(int codigo) throws DBException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public HistoricoPeso buscar(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<HistoricoPeso> listar(int idUsuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

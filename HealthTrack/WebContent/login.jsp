@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 col-lg-7">
-					<img src="src/images/login-page-img.png" alt="">
+					<img src="src/images/login-page-img.svg" alt="">
 				</div>
 				<div class="col-md-6 col-lg-5">
 					<div class="login-box bg-white box-shadow border-radius-10">
@@ -49,7 +49,7 @@
 						<form id="frmLogin" action="login" method="post">
 							<input type="hidden" value="login" name="acao">
 							<div class="input-group custom">
-								<input type="email" class="form-control form-control-lg"
+								<input type="text" class="form-control form-control-lg"
 									placeholder="E-mail" required name="email">
 								<div class="input-group-append custom">
 									<span class="input-group-text"><i

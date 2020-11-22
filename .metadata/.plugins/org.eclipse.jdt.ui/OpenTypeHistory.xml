@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{ProdutoDAO.java[ProdutoDAO" modifiers="513" timestamp="1605379210846"/>
-<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{UsuarioDAO.java[UsuarioDAO" modifiers="513" timestamp="1605436145446"/>
+<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{ProdutoDAO.java[ProdutoDAO" modifiers="513" timestamp="1605484375876"/>
+<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{UsuarioDAO.java[UsuarioDAO" modifiers="513" timestamp="1605458619273"/>
+<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{HistoricoBatimentoCardiacoDAO.java[HistoricoBatimentoCardiacoDAO" modifiers="513" timestamp="1605488013827"/>
+<typeInfo handle="=HealthTrack/src&lt;br.com.fiap.healthtrack.dao{HistoricoPesoDAO.java[HistoricoPesoDAO" modifiers="513" timestamp="1605498326004"/>
 </typeInfoHistroy>

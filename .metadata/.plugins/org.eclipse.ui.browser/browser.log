@@ -158,3 +158,89 @@ nov 15, 2020 23:29:56.66 [21764:3940:1115/222956.662:ERROR:device_event_log_impl
 nov 15, 2020 23:29:56.70 [21764:3940:1115/222956.693:ERROR:device_event_log_impl.cc(208)] [22:29:56.693] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
 nov 15, 2020 23:29:56.70 [21764:3940:1115/222956.694:ERROR:device_event_log_impl.cc(208)] [22:29:56.694] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
 nov 15, 2020 23:39:50.03 [1115/223950.031:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+
+nov 16, 2020 22:59:41.79 NEW SESSION
+nov 16, 2020 22:59:41.80 [5568:8384:1116/215941.796:ERROR:device_event_log_impl.cc(208)] [21:59:41.796] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 16, 2020 22:59:41.89 [5568:8384:1116/215941.897:ERROR:device_event_log_impl.cc(208)] [21:59:41.897] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 16, 2020 22:59:41.89 [5568:8384:1116/215941.898:ERROR:device_event_log_impl.cc(208)] [21:59:41.898] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 16, 2020 23:01:17.05 [17896:1760:1116/220117.049:ERROR:cache_util_win.cc(20)] Unable to move the cache: Acesso negado. (0x5)
+nov 16, 2020 23:01:17.05 [17896:1760:1116/220117.050:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\josed\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\josed\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+nov 16, 2020 23:01:17.05 [17896:1760:1116/220117.050:ERROR:disk_cache.cc(184)] Unable to create cache
+nov 16, 2020 23:01:17.05 [17896:1760:1116/220117.050:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+nov 16, 2020 23:01:18.13 Abrindo em uma sessão de navegador existente.
+nov 16, 2020 23:01:36.86 [11904:1228:1116/220136.861:ERROR:device_event_log_impl.cc(208)] [22:01:36.860] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 16, 2020 23:01:36.89 [11904:1228:1116/220136.898:ERROR:device_event_log_impl.cc(208)] [22:01:36.898] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 16, 2020 23:01:36.90 [11904:1228:1116/220136.901:ERROR:device_event_log_impl.cc(208)] [22:01:36.901] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 16, 2020 23:03:16.20 [21692:18796:1116/220316.203:ERROR:device_event_log_impl.cc(208)] [22:03:16.203] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 16, 2020 23:03:16.23 [21692:18796:1116/220316.238:ERROR:device_event_log_impl.cc(208)] [22:03:16.238] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 16, 2020 23:03:16.24 [21692:18796:1116/220316.240:ERROR:device_event_log_impl.cc(208)] [22:03:16.241] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 16, 2020 23:03:57.47 [14204:19872:1116/220357.477:ERROR:device_event_log_impl.cc(208)] [22:03:57.477] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 16, 2020 23:03:57.52 [14204:19872:1116/220357.521:ERROR:device_event_log_impl.cc(208)] [22:03:57.521] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 16, 2020 23:03:57.52 [14204:19872:1116/220357.522:ERROR:device_event_log_impl.cc(208)] [22:03:57.522] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 16, 2020 23:06:36.56 [21892:11268:1116/220636.563:ERROR:device_event_log_impl.cc(208)] [22:06:36.563] Bluetooth: bluetooth_adapter_winrt.cc:1207 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 16, 2020 23:06:36.60 [21892:11268:1116/220636.598:ERROR:device_event_log_impl.cc(208)] [22:06:36.598] Bluetooth: bluetooth_adapter_winrt.cc:1285 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 16, 2020 23:06:36.60 [21892:11268:1116/220636.599:ERROR:device_event_log_impl.cc(208)] [22:06:36.599] Bluetooth: bluetooth_adapter_winrt.cc:1300 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+
+nov 19, 2020 24:27:25.49 NEW SESSION
+nov 19, 2020 24:27:25.49 [11348:24148:1118/232725.494:ERROR:device_event_log_impl.cc(211)] [23:27:25.494] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 19, 2020 24:27:25.79 [11348:24148:1118/232725.701:ERROR:device_event_log_impl.cc(211)] [23:27:25.701] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 19, 2020 24:27:25.80 [11348:24148:1118/232725.742:ERROR:device_event_log_impl.cc(211)] [23:27:25.742] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 19, 2020 24:27:25.80 [11348:24148:1118/232725.783:ERROR:device_event_log_impl.cc(211)] [23:27:25.783] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 19, 2020 24:27:25.80 [11348:24148:1118/232725.784:ERROR:device_event_log_impl.cc(211)] [23:27:25.784] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 19, 2020 24:37:15.66 [1118/233715.662:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+
+nov 21, 2020 14:19:00.55 NEW SESSION
+nov 21, 2020 14:19:00.55 [12964:17396:1121/131900.532:ERROR:device_event_log_impl.cc(211)] [13:19:00.532] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 14:19:00.64 [12964:17396:1121/131900.647:ERROR:device_event_log_impl.cc(211)] [13:19:00.648] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 14:19:00.77 [12964:17396:1121/131900.776:ERROR:device_event_log_impl.cc(211)] [13:19:00.776] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 14:19:00.98 [12964:17396:1121/131900.985:ERROR:device_event_log_impl.cc(211)] [13:19:00.985] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 14:19:00.98 [12964:17396:1121/131900.986:ERROR:device_event_log_impl.cc(211)] [13:19:00.986] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 14:23:20.17 [12964:17396:1121/132320.175:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/extensions.js (1)
+nov 21, 2020 14:25:25.04 [12964:17396:1121/132525.045:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/extensions.js (1)
+nov 21, 2020 14:28:53.71 [1121/132853.715:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 21, 2020 14:36:11.84 [20476:12912:1121/133611.842:ERROR:device_event_log_impl.cc(211)] [13:36:11.841] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 14:36:11.95 [20476:12912:1121/133611.951:ERROR:device_event_log_impl.cc(211)] [13:36:11.951] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 14:36:11.99 [20476:12912:1121/133611.993:ERROR:device_event_log_impl.cc(211)] [13:36:11.993] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 14:36:12.02 [20476:12912:1121/133612.027:ERROR:device_event_log_impl.cc(211)] [13:36:12.026] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 14:36:12.02 [20476:12912:1121/133612.028:ERROR:device_event_log_impl.cc(211)] [13:36:12.027] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 14:41:22.80 [3664:4456:1121/134122.801:ERROR:device_event_log_impl.cc(211)] [13:41:22.801] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 14:41:22.90 [3664:4456:1121/134122.909:ERROR:device_event_log_impl.cc(211)] [13:41:22.910] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 14:41:22.95 [3664:4456:1121/134122.950:ERROR:device_event_log_impl.cc(211)] [13:41:22.951] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 14:41:22.98 [3664:4456:1121/134122.983:ERROR:device_event_log_impl.cc(211)] [13:41:22.984] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 14:41:22.98 [3664:4456:1121/134122.984:ERROR:device_event_log_impl.cc(211)] [13:41:22.985] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 14:51:19.66 [1121/135119.664:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 21, 2020 14:54:02.93 [3664:4456:1121/135402.936:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/extensions.js (1)
+nov 21, 2020 14:56:27.94 [20476:19928:1121/135627.942:ERROR:device_event_log_impl.cc(211)] [13:56:27.942] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 14:56:28.05 [20476:19928:1121/135628.053:ERROR:device_event_log_impl.cc(211)] [13:56:28.052] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 14:56:28.09 [20476:19928:1121/135628.098:ERROR:device_event_log_impl.cc(211)] [13:56:28.097] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 14:56:28.12 [20476:19928:1121/135628.128:ERROR:device_event_log_impl.cc(211)] [13:56:28.128] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 14:56:28.13 [20476:19928:1121/135628.129:ERROR:device_event_log_impl.cc(211)] [13:56:28.129] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 14:57:39.45 [3400:11964:1121/135739.458:ERROR:device_event_log_impl.cc(211)] [13:57:39.457] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 14:57:39.56 [3400:11964:1121/135739.569:ERROR:device_event_log_impl.cc(211)] [13:57:39.568] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 14:57:39.62 [3400:11964:1121/135739.627:ERROR:device_event_log_impl.cc(211)] [13:57:39.627] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 14:57:39.65 [3400:11964:1121/135739.656:ERROR:device_event_log_impl.cc(211)] [13:57:39.656] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 14:57:39.65 [3400:11964:1121/135739.657:ERROR:device_event_log_impl.cc(211)] [13:57:39.657] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 15:02:53.60 [16084:3300:1121/140253.607:ERROR:device_event_log_impl.cc(211)] [14:02:53.607] USB: usb_service_win.cc:352 Could not get child device's service name: Elemento não encontrado. (0x490)
+nov 21, 2020 15:02:53.71 [16084:3300:1121/140253.719:ERROR:device_event_log_impl.cc(211)] [14:02:53.718] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 15:02:53.76 [16084:3300:1121/140253.759:ERROR:device_event_log_impl.cc(211)] [14:02:53.759] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 15:02:53.78 [16084:3300:1121/140253.784:ERROR:device_event_log_impl.cc(211)] [14:02:53.783] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 15:02:53.78 [16084:3300:1121/140253.786:ERROR:device_event_log_impl.cc(211)] [14:02:53.786] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 15:12:43.00 [1121/141243.005:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 21, 2020 16:15:31.48 [16084:3300:1121/151531.487:ERROR:device_event_log_impl.cc(211)] [15:15:31.483] USB: usb_service_win.cc:258 Failed to get device driver name: Elemento não encontrado. (0x490)
+nov 21, 2020 17:46:23.28 [19824:17072:1121/164623.283:ERROR:device_event_log_impl.cc(211)] [16:46:23.283] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 17:46:23.36 [19824:17072:1121/164623.360:ERROR:device_event_log_impl.cc(211)] [16:46:23.360] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 17:46:23.39 [19824:17072:1121/164623.397:ERROR:device_event_log_impl.cc(211)] [16:46:23.397] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 17:46:23.39 [19824:17072:1121/164623.398:ERROR:device_event_log_impl.cc(211)] [16:46:23.398] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 17:52:32.46 [22180:22376:1121/165232.465:ERROR:device_event_log_impl.cc(211)] [16:52:32.465] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 17:52:32.51 [22180:22376:1121/165232.512:ERROR:device_event_log_impl.cc(211)] [16:52:32.512] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 17:52:32.54 [22180:22376:1121/165232.546:ERROR:device_event_log_impl.cc(211)] [16:52:32.546] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 17:52:32.54 [22180:22376:1121/165232.547:ERROR:device_event_log_impl.cc(211)] [16:52:32.547] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 21, 2020 18:02:22.26 [1121/170222.266:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+nov 21, 2020 18:14:21.65 [19400:24496:1121/171421.651:ERROR:device_event_log_impl.cc(211)] [17:14:21.651] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 21, 2020 18:14:21.68 [19400:24496:1121/171421.686:ERROR:device_event_log_impl.cc(211)] [17:14:21.687] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 21, 2020 18:14:21.71 [19400:24496:1121/171421.718:ERROR:device_event_log_impl.cc(211)] [17:14:21.719] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 21, 2020 18:14:21.72 [19400:24496:1121/171421.719:ERROR:device_event_log_impl.cc(211)] [17:14:21.720] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1
+nov 22, 2020 24:09:34.89 [14708:10672:1121/230934.894:ERROR:device_event_log_impl.cc(211)] [23:09:34.895] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+nov 22, 2020 24:09:34.94 [14708:10672:1121/230934.941:ERROR:device_event_log_impl.cc(211)] [23:09:34.942] Bluetooth: bluetooth_adapter_winrt.cc:1204 Getting Radio failed. Chrome will be unable to change the power state by itself.
+nov 22, 2020 24:09:35.02 [14708:10672:1121/230935.027:ERROR:device_event_log_impl.cc(211)] [23:09:35.028] Bluetooth: bluetooth_adapter_winrt.cc:1282 OnPoweredRadioAdded(), Number of Powered Radios: 1
+nov 22, 2020 24:09:35.03 [14708:10672:1121/230935.030:ERROR:device_event_log_impl.cc(211)] [23:09:35.031] Bluetooth: bluetooth_adapter_winrt.cc:1297 OnPoweredRadiosEnumerated(), Number of Powered Radios: 1

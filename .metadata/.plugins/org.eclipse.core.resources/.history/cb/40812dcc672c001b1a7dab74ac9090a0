@@ -1,0 +1,61 @@
+package br.com.fiap.healthtrack.controller;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
+import br.com.fiap.healthtrack.bean.Usuario;
+
+
+@WebServlet("/WeightControl")
+public class WeightControlServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+   
+    public WeightControlServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String acao = request.getParameter("acao");
+		if(acao == null)
+		{
+			acao = "";
+		}
+		switch (acao) {
+		case "abrir-form-edicao":
+			//int id = Integer.parseInt(request.getParameter("codigo"));
+			//HistoricoBatimentoCardiaco batimento = dao.buscar(id);
+			//request.setAttribute("batimento", batimento);
+			//request.getRequestDispatcher("heart-beats-register.jsp").forward(request, response);
+			break;
+		
+		default:
+			listar(request, response);
+			break;
+		}		
+	}
+	
+	private void listar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int idUsuario = ((Usuario) request.getSession().getAttribute("user")).getId_usuario();
+
+		//List<HistoricoBatimentoCardiaco> lista = dao.listar(idUsuario);
+		//request.setAttribute("batimentos", lista);
+		request.getRequestDispatcher("weight-control.jsp").forward(request, response);
+	}
+
+}

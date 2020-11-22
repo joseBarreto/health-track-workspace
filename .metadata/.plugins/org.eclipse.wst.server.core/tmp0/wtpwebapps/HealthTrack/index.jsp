@@ -9,9 +9,7 @@
 </head>
 
 <body>
-	
 	<%@ include file="menu.jsp"%>
-
 	<div class="pre-loader">
 		<div class="pre-loader-box">
 			<div class="loader-logo">
@@ -41,7 +39,7 @@
 						</br>
 						<p class="font-18 max-width-600">
 							"É melhor você tentar algo, vê-lo não funcionar e aprender com
-							isso,do que não fazer nada." </br> </br> <i>Mark Zuckerberg</i>
+							isso, do que não fazer nada." </br> </br> <i>Mark Zuckerberg</i>
 						</p>
 					</div>
 				</div>
@@ -118,6 +116,7 @@
 				Todos os direitos reservados - 2020</div>
 		</div>
 	</div>
+
 	<%@ include file="footer.jsp"%>
 	<script src="src/plugins/apexcharts/apexcharts.min.js"></script>
 	<script src="src/plugins/datatables/js/jquery.dataTables.min.js"></script>
