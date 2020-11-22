@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.com.fiap.healthtrack.bean.Produto;
 import br.com.fiap.healthtrack.bean.Usuario;
 import br.com.fiap.healthtrack.dao.UsuarioDAO;
 import br.com.fiap.healthtrack.exception.DBException;

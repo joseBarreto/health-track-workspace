@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
-import br.com.fiap.healthtrack.bean.Produto;
 import br.com.fiap.healthtrack.bean.Usuario;
 import br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO;
 import br.com.fiap.healthtrack.exception.DBException;

@@ -9,7 +9,6 @@ import java.util.Calendar;
 import java.util.List;
 
 import br.com.fiap.healthtrack.bean.HistoricoBatimentoCardiaco;
-import br.com.fiap.healthtrack.bean.Produto;
 import br.com.fiap.healthtrack.dao.HistoricoBatimentoCardiacoDAO;
 import br.com.fiap.healthtrack.exception.DBException;
 import br.com.fiap.healthtrack.singleton.ConnectionManager;
